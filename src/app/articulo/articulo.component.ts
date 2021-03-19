@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Articulo } from '../models/articulo.interface';
 
 @Component({
   selector: 'app-articulo',
@@ -23,10 +24,3 @@ export class ArticuloComponent implements OnInit {
 
 }
 
-//interface para el componente 
-interface Articulo {
-  nombre: string;
-  descripcion: string;
-  precio: number;
-
-}
