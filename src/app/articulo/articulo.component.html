@@ -1,7 +1,10 @@
 <div class="container">
     <div class="articulos" *ngFor="let articulo of articulos">
-        <h4>Nombre: <a [routerLink]="[ '/articulodetalle', articulo.nombre,articulo.precio ]">{{articulo.nombre}}</a></h4>
+        <h4>Nombre: <a [routerLink]="[ '/articulodetalle', articulo]">{{articulo.nombre}}</a></h4>
         <p>Descripción: {{articulo.descripcion}}</p>
         <h5>Precio: {{articulo.precio}}</h5>
+        <h5>Stock: {{articulo.stock}}</h5>
+        <h5>Precio Mayorista: {{articulo.precioMayorista}}</h5>
+
     </div>
 </div>

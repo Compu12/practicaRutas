@@ -27,7 +27,7 @@ const routes: Routes = [
 
   {path:'articulo',component:ArticuloComponent},
 
-  {path:'articulodetalle/:nombre/:precio',component:ArticuloDetalleComponent},
+  {path:'articulodetalle/:articulo',component:ArticuloDetalleComponent},
 
   {path:'**',component:PaginaerrorComponent},
 
